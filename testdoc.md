@@ -4,10 +4,6 @@ Sum enim sine texto Lorem Ipsi etc.
 
 ## Does it display things though? 
 
-|-|-|-|
-|it|seems|to|
-|indeed||not|
-|-|-|-|
 
 - hello
 - hello 
@@ -15,7 +11,7 @@ Sum enim sine texto Lorem Ipsi etc.
 
 ## Et de rei imagines? 
 
-![](images/image.png)
+![](images/wd_ev_shell.png)
 
 Will have to make a folder and all I guess... 
 
