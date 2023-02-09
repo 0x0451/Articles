@@ -2,6 +2,8 @@
 
 So, I've been playing with a bunch of different tools recently just for fun, and figured I'd try to put together something to illustrate how I go about building evasive malware payloads. 
 
+Note well that this information is purely for educational purposes. Distributing malware is bad. 
+
 ## Nature of the project 
 
 What I ended up going for was to simulate a typical malware-laden pirated game. For this purpose, I utilized the open source game engine LZDoom with the FreeDoom WAD so that I would have a base piece of software to trojanize that would be similarly complex to a commercial game. 
