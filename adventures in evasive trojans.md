@@ -46,7 +46,7 @@ I identified libfluidsynth (the midi sound library) as a good candidate for prox
 
 ## Building out my proxied DLL with ShhhLoader 
 
-ShhhLoader is an excellent tool for creating evasive payloads that utilize the SysWhispers method of direct syscalls to avoid detection by the API hooks used by many anti-virus solutions. If I recall correctly, this works by effectively reimplementing the ntdll.dll win32 API calls as direct syscalls to the NT Native API calls used by the OS kernel. By doing this, the API hooks (which usually inspect the userland win32 API calls and not the NT Native API calls) are unable to detect malicious activity performed by the payload. More information about this can be found on that project's github. 
+ShhhLoader is an excellent tool for creating evasive payloads that utilize the SysWhispers method of direct syscalls to avoid detection by the API hooks used by many anti-virus solutions. If I recall correctly, this works by effectively reimplementing the ntdll.dll win32 API calls as direct syscalls to the NT Native API calls used by the OS kernel. By doing this, the API hooks (which usually inspect the userland win32 API calls and not the NT Native API calls) are unable to detect malicious activity performed by the payload. More information about this can be found on [that project's github.](https://github.com/icyguider/Shhhloader)
 
 In order to use ShhhLoader to it's full extent, please consult the install instructions on that project's page, and *be sure to install OLLVM* support so that you can enable obsfucated payload compilation. This feature can make or break whether AV is able to detect the payload or not! 
 
