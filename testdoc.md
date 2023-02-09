@@ -31,3 +31,14 @@ int main(void){
 ```
 
 And I think that's enough then... 
+
+
+## Table testing
+
+ok I think I get it now... 
+
+|this|is|a|table|
+|-|-|-|-|
+|each|row|is|split by dashed things|
+|-|-|-|-|
+
