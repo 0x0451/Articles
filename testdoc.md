@@ -40,5 +40,6 @@ ok I think I get it now...
 |this|is|a|table|
 |-|-|-|-|
 |each|row|is|split by dashed things|
-|-|-|-|-|
+|or|is|it|indeed?|
+|also||blank|cols?|
 
