@@ -162,7 +162,7 @@ This webpage is vulnerable to SQL injection.
 - consider using functions such as mysql_real_escape_string() to sanitize user input. 
 - Consider developing IPS detections to deny HTTP POST traffic containing the above listed SQL injection payloads. 
 
-#### For http://admin.cronos.htb/
+#### For http://admin.cronos.htb/welcome.php
 
 This tool is vulnerable to OS shell command injection.
 
